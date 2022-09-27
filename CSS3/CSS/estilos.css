@@ -1,0 +1,101 @@
+/*selector{
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+}*/
+
+/*TIPOS DE SELECTORES:
+-BASICOS
+-COMBINADORES
+-PSEUDO-ELEMENTOS
+-PSEUDO-CLASES*/
+
+/*---------SELECTORES BÁSICOS---------
+etiquetas, clases, id, universal y atributos*/
+
+
+/*Etiquetas:*/
+h1{
+    color: red;
+}
+
+/*Clases:*/
+.Titulo{
+    color:blue;
+}
+
+/*Clases:*/
+#ParrafoLorem{
+    color: green;
+}
+
+/*Universal*/
+*{
+    margin: 0;
+}
+
+/*Atributos:*/
+/*Se seleecionan los elementos que tengan ese atributo y ese valor:*/
+[href="#"]{
+    color: green;
+}
+
+/*Seleccionando los elementos que tengan ese atributo
+y tenga exactamente ese valor o empiece seguiodo de un guión*/
+[class~="verde"]{
+    color: purple;
+}
+
+/*Seleccionando los elementos que tengan ese tributo
+y comiencen por ese valor:*/
+[class^="verde"]{
+    color: red;
+}
+
+/*Seleccionando los elementos que tengan ese tributo
+y terminen por ese valor:*/
+
+[class$="rojo"]{
+    color: yellow;
+}
+
+/*Seleccionando los elementos que tengan ese tributo
+y contengan ese valor:*/
+
+[class*="rojo"]{
+    color: gray
+}
+
+
+
+/*---------SELECTORES COMBINADORES----------
+Hermano adyacente, hermano general, descendentes e hijo directo*/
+
+/*Hermano Adyacente
+Selecciona el hermano que este debajo de este (su hermano inferior)*/
+h1 + h2{
+    color: blueviolet;
+}
+
+/*Hermano General
+Selecciona a todos los hermanos inferiores y compartanel mismo padre*/
+h1 ~ h3{
+    color:green
+}
+
+/*Descendente
+Aplica estilo a todos los elementos que estan dentro de este*/
+div p{
+    color: palevioletred;
+}
+
+/*Hijo Directo
+Busca una relacion directa*/
+div > p{
+    color: brown;
+}
+
+
+
+
+

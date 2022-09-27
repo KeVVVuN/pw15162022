@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: blueviolet;
+    color: pink;
+    text-align: center;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    border-radius: 7px;
+}
+
+header nav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+section{
+    border: 1px solid orange;
+}
+
+section article{
+    border: 2px solid greenyellow;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
