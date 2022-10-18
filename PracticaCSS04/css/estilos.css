@@ -14,18 +14,45 @@ header nav{
 }
 
 header nav ul li{
-    background-color: #245d92;
+    
     display: inline-block;
 }
 
 
 #primerSeccion{
-    margin-left: 15px;
-    max-width: 17%;
+    margin-top: -16px;
     background-color: #efefef;
-    text-align: center;
+    width: 18%;
+    
 }
 
-#secc01Art01{
-    text-align: left; 
+#secc01Art01{ 
+    background-color: #1e4872;
+    width: 83%;
+    margin-left:20px;
+    
 }
+
+#secc01Art01 img{
+   margin-left: -1px;
+}
+
+#secc01Art01 ul{
+    list-style: none;
+    margin-top: -3px;
+    
+}
+#secc01Art01 ul li{
+    color: white; 
+    padding-bottom: 7px;
+    margin-left: -25px;
+
+}
+
+#secc01Art02{
+    background-color: white;
+    width: 83%;
+    margin-left: 20px;
+    color: gray;
+}
+
