@@ -1,58 +1,297 @@
 body{
-background-color: #245d92;
-}
-
-header{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1078px;
+    max-height: 1078px;
     
-    text-align: center;
 }
 
-header nav{
-    text-align: right;
-    background-color: #efefef;
-    border-radius: 5px;
-}
-
-header nav ul li{
-    
+body section{
     display: inline-block;
 }
 
 
-#primerSeccion{
-    margin-top: -16px;
+header{
+    background-color: #275e8f;
+    text-align: center;
+}
+
+header img{
+    width: 15%;
+}
+
+nav{
+    text-align: right;
     background-color: #efefef;
-    width: 18%;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    margin-left: -70px;
+    margin-top: -10px;
+}
+
+nav ul li img{
+    width: 60%;
+}
+
+
+#artCubo01{
+    padding-top: 100px;
+    background: #19a920;
+    border-radius: 5px;
+}
+
+#artCubo01 img{
+    width: 60%;
+}
+
+#artCubo02{
+    width: 20%;
+    background: #1b6da9;
+    border-radius: 5px;
+}
+
+#artCubo02 img{
+    width: 54%;
+}
+
+#artCubo03{
+    width: 20%;
+    background: #7f1aa7;
+    border-radius: 5px;
+}
+
+#artCubo03 img{
+    width: 54%;
+}
+
+#artCubo04{
+    width: 20%;
+    background: #a71a19;
+    border-radius: 5px;
+}
+
+#artCubo04 img{
+    width: 55%;
+}
+
+#artPanels img{
+    margin-left: 21px;
+    width: 130%;
+}
+
+#barra04{
+    padding-bottom: 10px;
+}
+
+#imagenusu01{
+    width: 80%;
+}
+
+#imagenusu02{
+    width: 74.5%;
+}
+
+#imagenusu03{
+    width: 74.5%;
+}
+
+#imagenusu04{
+    width: 75.2%;
+}
+
+#logoProgress{
+    width: 25px;
+    padding-left: 10px;
+}
+
+#panelLogoLinks{
+    width: 25px;
+    padding-left: 10px;
+}
+
+#panelLinks{
+    padding-bottom: 5px;
+}
+
+
+#primerSeccion{
+    border: 1px solid #efefef;
+    width: 29%;
+    background: #efefef;
+    padding-bottom: 24px;
+    position: relative;
+    top: -7px;
+    right: -2px;
+    margin-left: 3px;
+    vertical-align: top;
     
+}
+
+#principal{
+    background-color: #275e8f;
 }
 
 #secc01Art01{ 
     background-color: #1e4872;
-    width: 83%;
+    width: 87%;
     margin-left:20px;
+    vertical-align: top;
+    margin: 0px auto;
     
-}
-
-#secc01Art01 img{
-   margin-left: -1px;
 }
 
 #secc01Art01 ul{
     list-style: none;
-    margin-top: -3px;
+    margin-left: -20px;
+    padding-top: -100px;
     
 }
+
 #secc01Art01 ul li{
-    color: white; 
-    padding-bottom: 7px;
-    margin-left: -25px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
 
 }
 
 #secc01Art02{
-    background-color: white;
-    width: 83%;
+    border: 1px solid lightgray;
+    background: white;
+    width: 87%;
+    margin: 0px auto;
+}
+
+#secc01Art02 img{
+    text-align: left;
+    margin-left: -0px;
+}
+
+#seccionCubos{
+    margin: 0px auto;
+    margin-left: 8px;
+}
+
+#seccionCubos article{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    width: 20%;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#seccionPanels{
+    margin-top: -15px;
+}
+
+#seccionUsuarios{
+    margin: 0px auto;
+    margin-top: -12px;
+    text-align: center;
+}
+
+#seccionUsuarios article{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 2px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+}
+
+#seccionUsuarios article input{
+    border: 1px solid #5cbfde;
+    background: #5cbfde;
+    border-radius: 3px;
+    margin: 10px 0px;
+    font-size: 0.7em;
+    padding: 8px 12px;
+}
+
+#segundaSeccion{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: -5px;
+    background: #ffffff;
+    position: relative;
+    
+}
+
+
+#tituloCubos{
+    margin-left: 8px;
+    margin-bottom: -20px;
+}
+
+#tituloPanels{
     margin-left: 20px;
+    margin-bottom: -0px;
+}
+
+#tituloUsuarios{
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: -20px;
+}
+
+
+.artUsu{
+    width: 23%;
+    background: #4a6bae;
+}
+
+.bar{
+    width: 99%;
+    margin-left: 20px;
+}
+
+.centrado{
+    vertical-align: middle;
+}
+
+.colorblanco{
+    color: white;
+}
+
+.letragrande{
+    font-size: 1.3em;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.titulo{
+    background: #275e8f;
+    font-size: 0.8em;
+    padding: 5px 0px;
+}
+
+.txtProgressBar{
+    padding: 6px;
     color: gray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
